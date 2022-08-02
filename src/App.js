@@ -1,5 +1,6 @@
 import Layout from "./InfiniteScroller";
 import FileUploadForm from "./FileUploadForm";
+import FunctionalScroll from "./fuctionalHook";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     >
       <Layout />
       <FileUploadForm />
+      <FunctionalScroll />
     </div>
   );
 }
